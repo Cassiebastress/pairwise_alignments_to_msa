@@ -1,0 +1,26 @@
+[project]
+name = "tuplealign"
+version = "0.1.0"
+description = "A tool to convert tuple sequence alignments to multi-sequence alignments."
+authors = [
+    {name = "Cassia Bastress",email = "cassie.bastress@gmail.com"}
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["bioinformatics", "sequence alignment", "msa", "tuple alignment"]
+classifiers = [
+]
+dependencies = [
+]
+requires-python = ">=3.9"
+
+[tool.poetry]
+packages = [{include = "tuplealign", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
