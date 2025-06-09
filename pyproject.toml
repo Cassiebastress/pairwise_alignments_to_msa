@@ -17,6 +17,8 @@ requires-python = ">=3.9"
 [tool.poetry]
 packages = [{include = "tuplealign", from = "src"}]
 
+[tool.pytest.ini_options]
+pythonpath = ["src"]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.0"
