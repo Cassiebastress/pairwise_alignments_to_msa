@@ -9,10 +9,23 @@ readme = "README.md"
 license = { file = "LICENSE" }
 keywords = ["bioinformatics", "sequence alignment", "msa", "tuple alignment"]
 classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11"
 ]
 dependencies = [
 ]
 requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/Cassiebastress/tuplealign"
+"Repository" = "https://github.com/Cassiebastress/tuplealign"
+"Issue Tracker" = "https://github.com/Cassiebastress/tuplealign/issues"
+"Documentation" = "https://github.com/Cassiebastress/tuplealign#readme"
 
 [tool.poetry]
 packages = [{include = "tuplealign", from = "src"}]
