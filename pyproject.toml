@@ -1,5 +1,5 @@
 [project]
-name = "tuplealign"
+name = "pairwise_alignments_to_msa"
 version = "0.1.0"
 description = "A tool to convert tuple sequence alignments to multi-sequence alignments."
 authors = [

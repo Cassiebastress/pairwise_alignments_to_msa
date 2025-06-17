@@ -1,35 +1,35 @@
-# tuplealign
+# pairwise_alignments_to_msa
 
-[![License](https://img.shields.io/github/license/Cassiebastress/tuplealign)](LICENSE)
+[![License](https://img.shields.io/github/license/Cassiebastress/pairwise_alignments_to_msa)](LICENSE)
 
 ## Introduction
 
-**tuplealign** is a Python package that converts pairwise tuple sequence alignments into a multi-sequence alignment (MSA).
+**pairwise_alignments_to_msa** is a Python package that converts pairwise tuple sequence alignments into a multi-sequence alignment (MSA).
 
 This tool is useful in bioinformatics pipelines when you have aligned pairs of sequences (such as the output of progressive alignment algorithms or pairwise alignment steps) and want to generate a consistent multi-sequence alignment.
 
 ## Installation
 
-### From PyPI (coming soon)
+### From PyPI
 
 ```bash
-pip install tuplealign
+pip install pairwise_alignments_to_msa
 ```
 
 ### From GitHub (development version)
 
 ```bash
-git clone https://github.com/Cassiebastress/tuplealign.git
-cd tuplealign
+git clone https://github.com/Cassiebastress/pairwise_alignments_to_msa.git
+cd pairwise_alignments_to_msa
 poetry install
 ```
 
 ## Usage
 
-Here is an example of how to use `tuplealign`:
+Here is an example of how to use `pairwise_alignments_to_msa`:
 
 ```python
-from tuplealign.alignment import aligned_tuples_to_MSA
+from pairwise_alignments_to_msa.alignment import aligned_tuples_to_MSA
 
 # Example list of aligned sequence pairs
 tuple_alignments = [
