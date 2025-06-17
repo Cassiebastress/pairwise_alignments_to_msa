@@ -28,7 +28,7 @@ requires-python = ">=3.9"
 "Documentation" = "https://github.com/Cassiebastress/tuplealign#readme"
 
 [tool.poetry]
-packages = [{include = "tuplealign", from = "src"}]
+packages = [{include = "pairwise_alignments_to_msa", from = "src"}]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
