@@ -1,5 +1,5 @@
 import unittest
-from tuplealign.alignment import aligned_tuples_to_MSA
+from pairwise_alignments_to_msa.alignment import aligned_tuples_to_MSA
 
 input_data1 = [
     ["a-bcdef", "aAb----"],
