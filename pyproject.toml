@@ -1,6 +1,6 @@
 [project]
 name = "pairwise_alignments_to_msa"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to convert tuple sequence alignments to multi-sequence alignments."
 authors = [
     {name = "Cassia Bastress",email = "cassie.bastress@gmail.com"}
